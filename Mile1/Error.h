@@ -22,9 +22,9 @@ namespace ict {
 
 
    // destructor
-       virtual ~Error(){
-           delete [] m_message;
-       }
+    virtual ~Error(){
+        delete [] m_message;
+    }
 
    // deleted constructor and operator=
    Error(const Error& em) = delete;
